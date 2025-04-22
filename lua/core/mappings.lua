@@ -5,6 +5,10 @@ vim.g.mapleader = ' '
 vim.keymap.set('n', '<leader>w', ':w<CR>')
 vim.keymap.set('n', '<leader>q', ':q<CR>')
 
+-- Neo-tree
+vim.keymap.set('n', '<leader>e', ':Neotree left toggle reveal<CR>')
+
+
 -- Split navigation
 vim.keymap.set('n', '<c-k>', ':wincmd k<CR>')
 vim.keymap.set('n', '<c-l>', ':wincmd l<CR>')
