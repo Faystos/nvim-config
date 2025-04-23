@@ -2,7 +2,8 @@ return {
   'navarasu/onedark.nvim',
   config = function()
     require('onedark').setup {
-      style = 'warmer'
+      style = 'warmer',
+			transparent = true
     }
     require('onedark').load() 
   end
