@@ -4,7 +4,7 @@ return {
 		version = 'v1.0.0',
 		config = function()
 			local lspconfig = require('lspconfig')
-			lspconfig.lau_ls.setup{}
+			lspconfig.lua_ls.setup{}
 		end
 
 }
