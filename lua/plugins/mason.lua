@@ -4,5 +4,16 @@ return {
 		config = function()
 			require("mason").setup()
 		end
+	},
+	{
+		'williamboman/mason-lspconfig.nvim',
+		version = '2.0.0-rc.1',
+		config = function()
+			require('mason-lspconfig').setup({
+				 ensure_installed = {
+					'lua_ls'
+				}
+			})
+		end
 	}
 }
