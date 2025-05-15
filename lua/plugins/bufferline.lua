@@ -6,6 +6,7 @@ return {
 
 		local gray = "#585b70"
 		local links = "#89dceb"
+
 		bufferline.setup({
 			options = {
 				mode = "buffers",
