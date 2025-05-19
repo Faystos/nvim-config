@@ -7,8 +7,8 @@ return {
     "MunifTanjim/nui.nvim",
   },
 	config = function()
-	--	vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none", fg = "none"})
-		-- vim.api.nvim_set_hl(0, "FloatBorder", { bg = "none", fg = "none"})
+		vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none", fg = "none"})
+		vim.api.nvim_set_hl(0, "FloatBorder", { bg = "none", fg = "none"})
 
 		vim.fn.sign_define("DiagnosticSignError", { text = " ", texthl = "DiagnosticSignError" })
     vim.fn.sign_define("DiagnosticSignWarn", { text = " ", texthl = "DiagnosticSignWarn" })
