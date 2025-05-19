@@ -1,7 +1,7 @@
 return {
 	{
 		"folke/trouble.nvim",
-		opts = {}, -- for default options, refer to the configuration section for custom setup.
+		opts = {},
 		cmd = "Trouble",
 		keys = {
 			{
@@ -25,12 +25,12 @@ return {
 				desc = "LSP Definitions / references / ... (Trouble)",
 			},
 			{
-			 "<leader>lL",
+				"<leader>ql",
 				"<cmd>Trouble loclist toggle<cr>",
 				desc = "Location List (Trouble)",
 			},
 			{
-				"<leader>lQ",
+				"<leader>qL",
 				"<cmd>Trouble qflist toggle<cr>",
 				desc = "Quickfix List (Trouble)",
 			},
