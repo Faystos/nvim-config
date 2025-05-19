@@ -12,7 +12,12 @@ return {
 			require('mason-lspconfig').setup({
 				 ensure_installed = {
 					'lua_ls',
-					'ts_ls'
+					'ts_ls',
+					'angularls',
+					'bashls',
+					'cssls',
+					'css_variables',
+					'cssmodules_ls',
 				}
 			})
 		end
